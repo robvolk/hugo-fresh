@@ -45,6 +45,9 @@ $section-grey: #fbfbfb;
 body {
   font-family: "Nunito Sans","Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
+h1,h2,h3,h4 {
+  font-family: "Titillium Web","Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
 
 // Resets
 
@@ -220,7 +223,7 @@ body #backtotop a {
     height: 48px;
     max-height: 128px !important;
     position: relative;
-    margin-top: 20px;
+    margin: 10px 0;
 }
 
 //Navbar animated icon

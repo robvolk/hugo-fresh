@@ -18,13 +18,13 @@ Classes to change the feel of bulma buttons
     border-radius: 500px;
 }
 
-// CTA buttons 
+// CTA buttons
 
 .button {
     cursor: pointer;
     &.cta {
         font-size: 1.1rem;
-        padding: 22px 40px 26px 40px;
+        padding: 1.5rem 3rem;
     }
     &.cta-lg {
         padding: 10px 30px 15px 30px;
@@ -50,15 +50,15 @@ Classes to change the feel of bulma buttons
     height: 45px;
     &.is-small {
         width: 36px;
-        height: 36px;  
+        height: 36px;
     }
     &.is-medium {
         width: 55px;
-        height: 55px;  
+        height: 55px;
     }
     &.is-large {
         width: 64px;
-        height: 64px;  
+        height: 64px;
     }
     i {
         left: 4px;
@@ -81,7 +81,7 @@ Classes to change the feel of bulma buttons
     }
 }
 
-// colored buttons and raised effect 
+// colored buttons and raised effect
 .button.btn-fade:hover {
     opacity: 0.6;
 }
@@ -113,7 +113,7 @@ Classes to change the feel of bulma buttons
     &.btn-outlined {
         border-color: $primary;
         color: $primary;
-        background-color: transparent; 
+        background-color: transparent;
         &:hover {
             color: $white;
             background-color: $primary;
@@ -137,7 +137,7 @@ Classes to change the feel of bulma buttons
     &.btn-outlined {
         border-color: $secondary;
         color: $secondary;
-        background-color: transparent; 
+        background-color: transparent;
         &:hover {
             color: $white;
             background-color: $secondary;

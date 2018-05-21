@@ -3,8 +3,8 @@ Navbar
 ========================================================================== */
 
 .navbar-wrapper.navbar-sticky {
+    background: rgba(255,255,255,.97);
     width: 100%;
-    background: $white;
     position: fixed;
     top: 0;
     left: 0;
@@ -12,8 +12,8 @@ Navbar
     z-index: 1;
 }
 
-.hero-head {
-    background: #fff;
+.content-start {
+  margin-top: 75px;
 }
 
 .hero-head.has-shadow {
@@ -25,6 +25,7 @@ Navbar
 }
 
 .navbar {
+    background: transparent;
     .container {
         min-height: 4rem;
     }

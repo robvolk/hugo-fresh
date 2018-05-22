@@ -1,0 +1,14 @@
+.sticky-container{
+  position:fixed;
+  top:230px;
+}
+.sticky li {
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+}
+.sticky li a {
+  color: hsl(0, 0%, 71%);
+  font-size: 1.5rem;
+}
+.sticky li:hover{
+}

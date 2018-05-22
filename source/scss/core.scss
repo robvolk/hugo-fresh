@@ -40,11 +40,7 @@ $section-grey: #fbfbfb;
 @import 'sidebar';
 @import 'testimonials';
 @import 'responsive';
-
-
-body {
-  font-family: "Nunito Sans","Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-}
+@import 'share';
 
 h1,h2,h3,h4 {
   font-family: "Titillium Web","Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -345,9 +341,9 @@ body #backtotop a {
 
 .big-title {
     color: $dark-grey;
-    font-size: 3.2rem;
+    font-size: 3.0rem;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.1;
     margin-bottom: 2.0rem;
 }
 

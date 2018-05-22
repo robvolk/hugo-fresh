@@ -10,3 +10,9 @@ Based on Hugo Fresh theme
 ```
 git push
 ```
+
+## Editing Bulma
+```
+cd ../bulma
+yarn run deploy
+```

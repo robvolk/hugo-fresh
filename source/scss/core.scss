@@ -42,16 +42,6 @@ $section-grey: #fbfbfb;
 @import 'responsive';
 @import 'share';
 
-h1,h2,h3,h4 {
-  font-family: "Titillium Web","Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-}
-
-.reading-text {
-  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
-  font-size: 1.25rem;
-  line-height: 1.6;
-  color: 	hsl(0, 0%, 21%);
-}
 // Resets
 
 section:focus {
@@ -337,14 +327,6 @@ body #backtotop a {
         -o-transition: all .2s ease ;
         transition: all .2s ease ;
     }
-}
-
-.big-title {
-    color: $dark-grey;
-    font-size: 3.0rem;
-    font-weight: 700;
-    line-height: 1.1;
-    margin-bottom: 2.0rem;
 }
 
 .textarea {

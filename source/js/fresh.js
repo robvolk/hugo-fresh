@@ -34,27 +34,6 @@ $(function() {
     });
   }
 
-  // Back to Top button behaviour
-  var pxShow = 600;
-  var scrollSpeed = 500;
-  $(window).scroll(function() {
-    if ($(window).scrollTop() >= pxShow) {
-      $(".navbar-cta").removeClass("is-hidden");
-    } else {
-      $(".navbar-cta").addClass("is-hidden");
-    }
-  });
-
-  $("#backtotop a").on("click", function() {
-    $("html, body").animate(
-      {
-        scrollTop: 0
-      },
-      scrollSpeed
-    );
-    return false;
-  });
-
   //Left Sidebar init and ps-scrollbar init
   if ($("#panel-trigger").length) {
     $("#panel-trigger, #panel-close").panelslider({
